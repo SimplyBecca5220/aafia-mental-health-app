@@ -1,120 +1,64 @@
-# React + Vite + shadcn/ui Starter Template
+# 💚 Ààfíà AI — Multilingual Mental Health Companion
 
-A modern React starter template built with Vite, TypeScript, Tailwind CSS, and shadcn/ui components.
+> **"Ààfíà"** *(Yoruba / Hausa / Igbo context)*: Good health, complete physical & mental well-being, peace of mind, and protection from harm.
 
-## 🚀 Features
+Ààfíà AI is a culturally aware, low-bandwidth, and multilingual AI mental health companion designed specifically for the Nigerian context. Built for the **3MTT x Gebeya NextGen Knowledge Showcase 2.0**, Ààfíà AI provides accessible psychological first aid, coping exercises, and localized emergency support—breaking down language, literacy, and connectivity barriers.
 
-- ⚡️ **Vite** - Fast build tool and development server
-- ⚛️ **React 18** - Latest React with hooks support
-- 🎯 **TypeScript** - Type safety and better developer experience
-- 🎨 **Tailwind CSS** - Utility-first CSS framework
-- 🧩 **shadcn/ui** - Beautifully designed components built with Radix UI
-- 📦 **Path Mapping** - Clean imports with `@/` prefix
+---
 
-## 📦 Included shadcn/ui Components
+## 🌟 Key Features
 
-- Button
-- Card
-- Input
-- Label
-- Badge
-- Dialog
-- And more...
+* **🗣️ Native Language Support:** Interact seamlessly in **Yoruba, Hausa, Igbo, Nigerian Pidgin, or English**.
+* **🎭 Contextual Cultural Adaptation:** Moves beyond literal translation to adapt metaphors, proverbs, and local wisdom for grounded, culturally resonant emotional support.
+* **🎙️ Voice + Text Interface:** Built for voice-first interaction to ensure accessibility for users with varying literacy levels or those who prefer speaking over typing.
+* **📶 Offline-First & Low-Bandwidth Optimised:** Caches core grounding techniques and crisis resources locally to remain effective in low-connectivity regions.
+* **🚨 Localized Emergency Routing:** Instantly detects self-harm/crisis triggers and provides direct contact info for verified Nigerian mental health hotlines and local support networks (e.g., MANI, local emergency lines).
 
-## 🛠️ Getting Started
+---
 
-1. **Install dependencies**
+## 🛠️ Tech Stack & Platform
 
-   ```bash
-   npm install
-   ```
+* **Frontend:** React 18, TypeScript, Vite
+* **UI & Styling:** Tailwind CSS, shadcn/ui components, Radix UI
+* **Build & Deployment Platform:** Gebeya / Dala AI Web Development Platform
 
-2. **Start development server**
-
-   ```bash
-   npm run dev
-   ```
-
-3. **Build for production**
-
-   ```bash
-   npm run build
-   ```
-
-4. **Preview production build**
-   ```bash
-   npm run preview
-   ```
+---
 
 ## 📁 Project Structure
 
-```
+```text
 src/
 ├── components/
-│   └── ui/              # shadcn/ui components
+│   └── ui/          # shadcn/ui components
 ├── lib/
-│   └── utils.ts         # Utility functions
-├── App.tsx              # Main application component
-├── index.css            # Global styles with Tailwind
-└── main.tsx             # Application entry point
-```
+│   └── utils.ts     # Utility functions
+├── App.tsx          # Main application component
+├── index.css        # Global styles with Tailwind
+└── main.tsx         # Application entry point
 
-## 🎨 Customization
 
-### Adding New shadcn/ui Components
+## 🚀 Getting Started
 
-This template is pre-configured with shadcn/ui. You can add more components by creating them in the `src/components/ui/` directory.
+### Prerequisites
+* Any modern web browser (Mobile & Desktop friendly).
+* Internet connection required for full dynamic LLM responses; core crisis resources work on low-data modes.
 
-### Tailwind Configuration
-
-The Tailwind configuration is set up with shadcn/ui color variables. You can customize colors and other design tokens in:
-
-- `tailwind.config.js` - Tailwind configuration
-- `src/index.css` - CSS custom properties for themes
-
-### TypeScript Configuration
-
-Path mapping is configured for clean imports:
-
-```typescript
-import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
-```
-
-## 🌗 Dark Mode
-
-The template includes dark mode support through Tailwind's `dark:` classes and CSS custom properties.
-
-## 📚 Learn More
-
-- [Vite Documentation](https://vitejs.dev/)
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [shadcn/ui](https://ui.shadcn.com/)
-- [Radix UI](https://www.radix-ui.com/)
-
-## 🤝 Contributing
-
-Feel free to submit issues and enhancement requests!
-
-**⚡ Powered by [Dala](https://dala.gebeya.com)** - The AI-powered web development platform that helps you build full-stack applications faster.
+### Usage
+1. Open the application link on your mobile phone or browser.
+2. Select your preferred language or simply send a voice note / text message in your native dialect.
+3. Chat with Ààfíà AI to practice breathing exercises, work through daily stressors, or seek immediate crisis support resources.
 
 ---
 
-## 🤖 What is Dala?
+## 🛡️ Safety & Disclaimer
 
-**[Gebeya Dala](https://dala.gebeya.com)** is an intelligent web development platform that accelerates your React development workflow. Build, preview, and deploy web applications, and instant development environments.
+**Ààfíà AI is NOT a replacement for a licensed human medical professional or clinical therapist.** 
 
-🔗 **Try Dala:** [dala.gebeya.com](https://dala.gebeya.com)
-
-### Why Use Dala?
-
-- **AI-Powered Development** - Get intelligent code suggestions and automated component generation
-- **Instant Preview** - See your changes live in real-time sandbox environments
-- **Zero Setup** - No local environment configuration needed
-- **Collaborative** - Build and share projects with your team
-- **Deployment Ready** - One-click deployment to production
+Ààfíà AI is designed to offer psychological first aid, emotional support, and evidence-based grounding techniques. In any crisis involving self-harm or severe clinical emergency, the system automatically redirects users to verified human crisis intervention services in Nigeria.
 
 ---
 
-Built with ❤️ by the Dala team to help developers build faster and smarter.
+## 🏆 Hackathon / Competition Context
+
+Developed for the **3MTT x Gebeya NextGen Knowledge Showcase 2.0** to demonstrate how AI-native development can solve critical health and accessibility challenges across Africa.
+
