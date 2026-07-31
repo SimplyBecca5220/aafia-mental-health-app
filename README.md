@@ -1,4 +1,4 @@
-# 💚 Ààfíà AI — Multilingual Mental Health Companion
+#  Ààfíà AI — Multilingual Mental Health Companion
 
 > **"Ààfíà"** *(Yoruba / Hausa / Igbo context)*: Good health, complete physical & mental well-being, peace of mind, and protection from harm.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 * **🗣️ Native Language Support:** Interact seamlessly in **Yoruba, Hausa, Igbo, Nigerian Pidgin, or English**.
 * **🎭 Contextual Cultural Adaptation:** Moves beyond literal translation to adapt metaphors, proverbs, and local wisdom for grounded, culturally resonant emotional support.
@@ -16,7 +16,7 @@
 
 ---
 
-## 🛠️ Tech Stack & Platform
+##  Tech Stack & Platform
 
 * **Frontend:** React 18, TypeScript, Vite
 * **UI & Styling:** Tailwind CSS, shadcn/ui components, Radix UI
@@ -24,7 +24,7 @@
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 src/
@@ -37,7 +37,7 @@ src/
 └── main.tsx         # Application entry point
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 * Any modern web browser (Mobile & Desktop friendly).
